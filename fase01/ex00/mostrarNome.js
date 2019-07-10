@@ -1,4 +1,3 @@
-function mostrarNome() {
-      console.log ("Marvin"); 
-} 
-mostrarNome ("Marvin") 
+function mostrarNome(){
+console.log ("Marvin")
+}

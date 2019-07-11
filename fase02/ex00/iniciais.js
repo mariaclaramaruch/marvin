@@ -1,3 +1,3 @@
-function iniciais(palavra) {
-    return palavra.substring (3,0);
+function finais(palavra) {
+    return palavra.substring (9,12);
 }

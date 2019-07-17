@@ -1,3 +1,3 @@
-function subtracao(x,y,z){
-    return x-y-z
+function subtracao(x,y){
+    return x-y
 }

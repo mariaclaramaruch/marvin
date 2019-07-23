@@ -1,11 +1,8 @@
-
 function vogalOuConsoante(letra) {
-    if (letra == "a"|| letra == "e" || letra == "i" || letra == "o" || letra == "u") {
+    var tipo = letra.toLowerCase()
+    if (tipo == "a"|| tipo == "e" || tipo == "i" || tipo == "o" || tipo == "u") {
     return ("Vogal")
     } else { 
         return ("Consoante")
 }
 }
-
-
-

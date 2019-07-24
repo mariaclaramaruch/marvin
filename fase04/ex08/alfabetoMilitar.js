@@ -1,15 +1,16 @@
 function alfabetoMilitar(vogal){
-    if (vogal == "a")
-    return ("alfa") 
-   if (vogal == "e")
+    var letra=vogal.toLowerCase()
+    if (letra == "a")
+    return ("alpha") 
+   if (letra == "e")
     return ("echo")
-    if (vogal == "i")
+    if (letra == "i")
     return ("india")
-    if (vogal == "o")
+    if (letra == "o")
     return ("oscar")
-    if (vogal == "u")
+    if (letra == "u")
     return ("uniform")
     else {
-        return ("false")
+        return false
 }
 }

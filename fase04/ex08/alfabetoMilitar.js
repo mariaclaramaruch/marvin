@@ -1,24 +1,15 @@
 function alfabetoMilitar(vogal){
-    if (vogal == "a"){
-        return ("alfa") 
-    } else {
-    if (vogal == "e"){
+    if (vogal == "a")
+    return ("alfa") 
+   if (vogal == "e")
     return ("echo")
-    } else {
-    if (vogal == "i"){
+    if (vogal == "i")
     return ("india")
-    } else {
-    if (vogal == "o"){
+    if (vogal == "o")
     return ("oscar")
-    } else {
-    if (vogal == "u"){
+    if (vogal == "u")
     return ("uniform")
-    } else {
-        return ("False")
+    else {
+        return ("false")
 }
 }
-}
-}
-}
-}
-

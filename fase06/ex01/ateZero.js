@@ -1,31 +1,20 @@
 function ateZero(num){
-var novaLista=[]
+var array=[]
 var x= 0 
-if (num>=0)
-return 
 
-
-var min;
-var max;
-
-if (n1<n2){
-min= n1
-max= n2
+if (num>=x){
+    while (num>=x){
+    array.push(x)
+    x++
+    }
 
 } else {
 
-if (n1>n2){
-    
-min= n2
-max= n1
+    while (num<=x){
+    array.push(num)
+    num++
 }
 }
-
-while (min <= max){
-console.log (min) 
-min++;
+return array
 }
-}
-
-
 
